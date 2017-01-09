@@ -1,0 +1,18 @@
+{
+  "name": "pp-ext-ui",
+  "version": "0.0.0",
+  "description": "UI for extended pp data",
+  "main": "client/index.js",
+  "scripts": {
+    "start": "",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "author": "Teemu Pääkkönen <oamaok@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.13.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-react": "^6.9.0"
+  }
+}
