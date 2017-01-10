@@ -1,0 +1,52 @@
+.sidebar
+  width: 18em
+  background-color: #222
+  height: 100vh
+  position: fixed
+  color: #fff
+  box-shadow: 0 0 5px rgba(0,0,0,0.75)
+  border-right: 6px solid #b17
+  .brand
+    margin: 0 1rem
+    font-size: 4em
+  .separator
+    height: 6px
+    width: 100%
+    background-color: #88b300
+    margin: 2em 0
+
+  .navigation
+    margin: 0 1em
+    .nav-btn
+      font-size: 1.2em
+      margin-bottom: 2em
+      width: fit-content
+      display: block
+      transition: color 0.15s ease-out
+      &.active
+        &:after
+          width: 100%
+      &:after
+        margin-top: 6px
+        content: ''
+        height: 6px
+        background-color: #fff
+        width: 0
+        display: block
+        transition: all 0.15s ease-out
+      &:hover
+        color: #7a89ff
+        &:after
+          background-color: #7a89ff
+          width: 100%
+    .nav-search
+      font-size: 1.2em
+      margin-bottom: 2em
+      input
+        margin-top: 0.5em
+        padding: 0.25em
+        font-size: 1em
+        border-radius: 2px
+        box-shadow: inset 1px 2px 2px rgba(0,0,0,0.3)
+        background-color: #fff
+        width: 100%

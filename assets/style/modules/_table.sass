@@ -1,0 +1,15 @@
+.table-wrapper
+  padding: 2em
+  table
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5)
+    width: 100%
+    background-color: #fff
+    td,th
+      padding: 1em 0.5em
+      text-align: left
+      &.number
+        text-align: right
+    tr:nth-child(odd)>td
+      background-color: #f7f7f7
+    tr:hover>td
+      background-color: #eee
